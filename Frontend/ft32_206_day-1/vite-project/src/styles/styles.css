@@ -1,0 +1,98 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.rs>.container1
+{
+    display: flex;
+    padding: 20px 100px;
+   align-items: center;
+}
+.rs span
+{
+    color: rgb(60, 172, 213);
+}
+
+.rs>h1
+{
+    text-align: center;
+ 
+}
+.loginpage
+{
+    margin-top: 80px;
+
+    
+}
+.signuppage
+{
+    margin-top: 80px;
+    
+  
+}
+.homepage
+{
+    margin-top: 60px;
+   background-color: white;
+   
+    
+}
+.rs>p
+{
+width: 70%;
+margin: auto;
+
+}
+.rs>.headp
+{
+    text-align: center;
+}
+.rs button
+{
+    padding:10px 20px;
+    background-color:rgb(60, 172, 213) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+.rs button:hover
+{
+  opacity: 80%;
+  cursor: pointer;
+}
+.rs nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+  
+
+    
+}
+nav>img
+{
+    width: 160px;
+}
+
+.rs nav div
+{
+display: flex;
+gap: 5px;
+}
+
+.landing
+{
+    background-color: white;
+height: 100vh;
+    width: 99vw;
+    margin-top: 60px;
+}
