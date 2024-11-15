@@ -1,43 +1,73 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 export default function AuthPage({ onLogin, onSignup }) {
-  const [isLogin, setIsLogin] = useState(true)
+  const [isLogin, setIsLogin] = useState(true);
   const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
     email: '',
     password: '',
     confirmPassword: ''
-  })
+  });
 
   const handleInputChange = (e) => {
-    const { name, value } = e.target
-    setFormData(prevData => ({
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
       ...prevData,
       [name]: value
-    }))
-  }
+    }));
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
     if (isLogin) {
-      onLogin(formData)
+      onLogin(formData);
     } else {
-      onSignup(formData)
+      onSignup(formData);
     }
-  }
+  };
 
   const toggleAuthMode = () => {
-    setIsLogin(!isLogin)
+    setIsLogin(!isLogin);
     setFormData({
+      firstName: '',
+      lastName: '',
       email: '',
       password: '',
       confirmPassword: ''
-    })
-  }
+    });
+  };
 
   return (
     <div className="auth-container">
       <form className="auth-form" onSubmit={handleSubmit}>
         <h2>{isLogin ? 'Login' : 'Sign Up'}</h2>
+        {!isLogin && (
+          <>
+            <div className="form-group">
+              <label htmlFor="firstName">First Name:</label>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                value={formData.firstName}
+                onChange={handleInputChange}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="lastName">Last Name:</label>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                value={formData.lastName}
+                onChange={handleInputChange}
+                required
+              />
+            </div>
+          </>
+        )}
         <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input
@@ -78,7 +108,7 @@ export default function AuthPage({ onLogin, onSignup }) {
         </button>
       </form>
       <p className="toggle-text">
-        {isLogin ? "Don't have an account?" : "Already have an account?"}
+        {isLogin ? "Don't have an account?" : 'Already have an account?'}
         <button type="button" className="toggle-btn" onClick={toggleAuthMode}>
           {isLogin ? 'Sign Up' : 'Login'}
         </button>
@@ -158,5 +188,5 @@ export default function AuthPage({ onLogin, onSignup }) {
         }
       `}</style>
     </div>
-  )
+  );
 }
