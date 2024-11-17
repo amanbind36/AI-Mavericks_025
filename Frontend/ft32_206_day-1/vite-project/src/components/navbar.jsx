@@ -8,7 +8,7 @@ export const Navbar=()=>
     return(
         <header className="rs">
         <nav>
-          <img src={logo} alt="" />
+          <img src={logo} alt="" style={{width:"80px"}}/>
           <div>
           <button onClick={()=>{navigate("/")}}>Home</button>
             <button onClick={()=>{navigate("/signup")}}>Signup</button>

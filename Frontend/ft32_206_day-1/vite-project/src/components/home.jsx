@@ -1,79 +1,173 @@
+import hold from "../assets/background-holdTogether.jpg"
+import "../styles/styles.css"
+// import RazorpayPayment from "./razorpay";
+
 export const Home = () => {
     return (
+      <>
       <div className="homepage">
         <div className="rs">
-          <h1>
-            Features of the <span>Presentation</span> Maker
+          <img src={hold} alt="" style={{width:"100%"}}/>
+          <div className="rs2">
+        <h1>
+            Be a part of <span>Crowdfunding</span>
           </h1>
-          <p className="headp">
+          <p className="headp" style={{textAlign:"left"}}>
           Crowdfunding is the use of small amounts of capital from a large number of individuals to finance a new business venture. Depending on the type of crowdfunding, investors either donate money altruistically or get rewards such as equity in the company that raised the money.
           </p>
-          <div className="container1">
-            <div>
-              <img
-                src="https://www.visme.co/wp-content/uploads/2021/03/Presentation-maker-templates.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h2>Beautiful presentation themes</h2>
-              <p>
-                Choose from one of our presentation themes with hundreds of
-                available slide layouts for you to pick from and build a beautiful
-                presentation. Find slide layouts to fit any type of information
-                you need to communicate within your presentation and customize
-                them to perfectly fit your brand or topic.
-              </p>
-              <button>Create Your Presentation</button>
-            </div>
-          </div>
+            {/* <button onClick={RazorpayPayment}>Donate Now</button> */}
+            <button>Donate Now</button>
         </div>
-        <div className="rs">
-          <div className="container1">
-            <div>
-              <h2>Build your presentation</h2>
-              <p>
-                With fully customizable slides, text blocks, data visualization
-                tools, photos and icons to help tell your story, you can easily
-                build creative and cool presentations as quickly as you need.
-                Build the perfect slides with Visme’s easy-to-use presentation
-                editor.
-              </p>
-              <button>Create Your Presentation</button>
-            </div>
-            <div>
-              <img
-                src="https://www.visme.co/wp-content/uploads/2021/03/Presentation-maker-create.jpg"
-                alt=""
-              />
-            </div>
-          </div>
+      
         </div>
-        <div className="rs">
-          <div className="container1">
-            <div>
-              <img
-                src="https://www.visme.co/wp-content/uploads/2021/03/Presentation-maker-Customize.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <h2>
-                Customize every aspect of your presentation with your own images
-                and text
-              </h2>
-              <p>
-                Choose from over a million images, thousands of icons, dozens of
-                charts and data widgets to visualize information in an engaging
-                way. Apply a color scheme to all your slides with one click. Add
-                animation effects, transitions, interactivity, pop-ups, rollovers
-                and third-party content such as live websites and social media
-                feeds.
-              </p>
-              <button>Create Your Presentation</button>
-            </div>
-          </div>
-        </div>
+       
       </div>
+       <div className="rks container-fluid">
+       <div className="inner-box1">
+       <div className="u1">
+       <div className="d1">
+           
+       
+               <form action="">
+                   <label htmlFor="email">Enter Email to receive valuable updates</label>
+                   <div className="input-group mb-3 input1">
+                       <input required id="email" type="email" className="form-control i1" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2" size="30"/>
+                       <button className="btn btn-outline-secondary pri" type="submit" id="button-addon2"><span className="material-symbols-outlined">
+                         <i className="fa-solid fa-greater-than"></i>
+                           </span>Search</button>
+                   </div>
+               </form>
+            
+       </div>
+       <div className="d2">
+           <img src="https://p4-ofp.static.pub/fes/cms/2021/07/13/i7yuirli2qwiqq1t804izy6fg0xft4483038.svg" alt=""/>
+           <img src="https://p2-ofp.static.pub/fes/cms/2021/07/13/q59kynt135ngy6yenpgfp83dulr08r150287.svg" alt=""/>
+           <img src="https://p2-ofp.static.pub/ShareResource/we/footer/images/linkedin-icon.png" alt=""/>
+           <img src="https://p1-ofp.static.pub/fes/cms/2021/07/13/9uav8wkxhmyhu1mlutyfl8vftmkr3w675335.svg" alt=""/>
+           <img src="https://p2-ofp.static.pub/ShareResource/we/footer/images/forums-icon.png" alt=""/>
+       </div>
+       <div className="d3">
+           <form action="">
+               <label htmlFor="email">Select Country / Region:</label>
+               <div className="input-group mb-3 input1">
+                   <select className="form-select fs1" id="inputGroupSelect02" >
+                       <option selected >INDIA</option>
+                       <option value="1" >JAPAN</option>
+                       <option value="2">AUSTRALIA</option>
+                       <option value="3">CANADA</option>
+                     </select>
+               </div>
+           </form>
+       </div>
+       </div>
+       <div className="u2">
+           <div>
+               <h6>ABOUT DONATE FOR BETTER</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Our Company</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">News
+       
+                 
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Investors Relations</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Legal Information</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Jobs At Donate For Better</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">ESG</a>
+           </div>
+           <div>
+               <h6>PRODUCTS & SERVICES</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Laptops & Ultrabooks
+                   
+                
+                   
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Smartphones
+       
+                   
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Tablets</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Desktops</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Workstations</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Data Center Solutions</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Accessories & Software</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Services & Warranty</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Product Recalls</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Replacement Parts</a>
+             
+           </div>
+           <div>
+               <h6>CUSTOMER SUPPORT</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Service Provider List
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Where to Buy            
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Shopping Help</a>
+           
+           </div>
+           <div>
+               <h6>RESOURCES</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Employee Purchase Program
+               
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Contact Us
+       
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Find a Dealer</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Email Sign-Up</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Support</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Blog</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Order Status</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">FAQS</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Glossary</a>
+         
+           </div>
+           <div>
+               <h6>PORTFOLIO</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">ThinkPad T Series
+       
+                  
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> ThinkPad X Series
+       
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">ThinkPad</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Ideapad</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Yoga</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">M Series Tiny</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> ThinkCentre</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Ideacentre</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Tablets</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Thinkstation</a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">  Data Center Solutions</a>
+           </div>
+           <div>
+               <h6>SOLUTIONS</h6>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark">Business Partners
+       
+                  
+                   </a>
+               <a href="" className="link-offset-2 link-underline link-underline-opacity-0 link-dark"> Think Progress
+       
+                   </a>
+           </div>
+       </div>
+       <div className="u3">
+           <small>© 2024 Donate For Better. All rights reserved.</small>
+           <p><small><a className="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">Privacy</a> | <a className="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">Site Map</a> | <a className="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">Terms of Use</a> | <a className="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">External Submission Policy</a> | <a class="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">Sales terms and conditions</a> | <a className="link-offset-2 link-underline link-underline-opacity-0 link-dark" href="">Anti-Slavery and Human Trafficking Statement</a></small></p>
+       </div>
+       </div>
+       <hr/>
+       <div className="inner-box2">
+   <a href="" className="link-offset-2 link-underline link-underline-opacity-0">
+       <i className="fa-regular fa-face-smile pe-1"></i>
+       <span>Feedback</span>
+   </a>
+   <span>Need Help? Call :
+   
+       1-800-4199-733
+       </span>
+   
+       </div>
+       </div>
+       </>
     );
   };
