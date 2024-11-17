@@ -1,0 +1,281 @@
+
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.rs>.container1
+{
+    display: flex;
+    padding: 20px 100px;
+   align-items: center;
+}
+.rs span
+{
+    color: rgb(60, 172, 213);
+}
+
+.rs>h1
+{
+    text-align: center;
+ 
+}
+.loginpage
+{
+    margin-top: 80px;
+
+    
+}
+.signuppage
+{
+    margin-top: 80px;
+    
+  
+}
+.homepage
+{
+    margin-top: 40px;
+   background-color: white;
+   position: relative;
+   
+    
+}
+.rs>p
+{
+width: 70%;
+margin: auto;
+
+}
+.rs>.headp
+{
+    text-align: center;
+}
+.rs button
+{
+    padding:10px 20px;
+    background-color:rgb(60, 172, 213) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    
+}
+.rs button:hover
+{
+  opacity: 80%;
+  cursor: pointer;
+}
+.rs nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
+    z-index: 3;
+
+    
+}
+nav>img
+{
+    width: 160px;
+}
+
+.rs nav div
+{
+display: flex;
+gap: 5px;
+}
+
+.landing
+{
+    background-color: white;
+height: 100vh;
+    width: 99vw;
+    margin-top: 60px;
+}
+.rs
+{
+position: relative;
+
+}
+
+.rs>img
+{
+
+}
+
+.rs>div
+{
+position: absolute;
+z-index: 2;
+top: 150px;
+}
+
+.rs2>p
+{
+width: 70%;
+margin: auto;
+color: white;
+}
+
+.rs2 span
+{
+    color: rgb(60, 172, 213);
+}
+.rs2>h1
+{
+    text-align: center;
+    color: white;
+ 
+}
+.rs2>button
+{
+    display: block;
+    margin: auto;
+}
+
+/* <!-- Footer Rajat --> */
+/* rks style start */
+.rks {
+    background-color: #ededed;
+  }
+  .rks > .inner-box1 {
+    padding: 18px 145px 50px 145px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .rks .d2 img {
+    width: 25px;
+  }
+  .rks .input1 {
+    width: 280px;
+  }
+  .rks .i1 {
+  }
+  
+  .rks .u1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rks .inner-box1 {
+    max-width: 1500px;
+    margin: auto;
+  }
+  .rks .u2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .rks .u2 > div {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+  }
+  .rks .u2 a {
+    font-size: 12.8px;
+  }
+  .rks .u3 {
+    text-align: center;
+  }
+  .rks .u3 > p {
+    margin: 0px;
+  }
+  .rks > hr {
+    margin: 0px;
+  }
+  .rks .inner-box2 {
+    max-width: 1500px;
+    margin: auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rks .inner-box2 > a {
+    display: flex;
+    align-items: center;
+  }
+  .rks .inner-box2 > span {
+    font-size: 14px;
+  }
+  @media (max-width: 1250px) {
+    .rks .u1 {
+      flex-direction: column;
+    }
+    .rks > .inner-box1 {
+      padding: 0px;
+    }
+    .rks .d2 {
+      padding-bottom: 10px;
+    }
+  }
+  @media (max-width: 324px) {
+    .rks .inner-box2 {
+      flex-direction: column;
+    }
+    .rks .u2 > div {
+      margin: auto;
+    }
+  }
+  .container-fluid {
+  
+    margin-top: 0;
+    background-color: #ededed;
+    padding: 6px 6px 0px 16px;
+    padding-bottom: 8px;
+  }
+  /* rks style end */
+  .rs3
+  {
+    background-image: url(../assets/background-holdTogether.jpg);
+    width: 100%;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 500px;
+  }
+
+  .rs3>p
+{
+width: 70%;
+margin: auto;
+color: white;
+}
+
+.rs3 span
+{
+    color: rgb(60, 172, 213);
+}
+.rs3>h1
+{
+    text-align: center;
+    color: white;
+padding-top: 150px;
+}
+.rs3>button
+{
+    display: block;
+    margin: auto;
+    padding:10px 20px;
+    background-color:rgb(60, 172, 213) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.rs3 button:hover
+{
+  opacity: 80%;
+  cursor: pointer;
+}
