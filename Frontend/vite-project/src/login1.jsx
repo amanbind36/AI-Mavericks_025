@@ -3,7 +3,7 @@ import { useState } from 'react'
 import AuthPage from './components/AuthPage'
 import Home from './pages/Home'
 
-export default function App() {
+export default function Login1() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
 
   const handleLogin = () => {
