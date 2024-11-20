@@ -56,3 +56,4 @@ The *Donate for better* is a full-stack web application designed to help student
 - Provide your email and password on the login and sign-up pages.
 
 Project reference image:
+![image](https://github.com/amanbind36/AI-Mavericks_025/blob/main/screenshots/UI_screenshoot.jpg)
